@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+    <main>
+        <div class="navbar">
+            <button class="return-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="main-title">
+                <img src="images/rocketlogo.png" alt="">
+                <p class="fast-parity-title">Fast-Parity</p>
+            </div>
+            <a href="rule.html" class="rules-btn">
+                <i class="fa-solid fa-circle-question"></i>
+                <p class="rule-text">Rule</p>
+            </a>
+        </div>
+        <div class="maingame">
+            <div class="upper-section">
+                <div class="timer-section">
+                     <div class="game-period">
+                        <p class="period-title">Period</p>
+                        <div class="period-number">1234555</div>
+                     </div>
+                     <div class="stop-watch">
+                        <p class="watch-title">Count Down</p>
+                        <div class="watch-number"></div>
+                     </div>
+                </div>
+                <div class="button-section">
+                    <div class="color-btn">
+                        <button class="select" style="background-color:rgb(50, 192, 114) ;" value="green">
+                            <img src="images/rocketimgbutton.png" alt="">
+                            <p> join green</p>
+                        </button>
+                        <button class="select" style="background-color:rgb(114, 38, 222) ;" value="rgb(114, 38, 222)">
+                            <img src="images/rocketimgbutton.png" alt="">
+                            <p>  join violet</p>
+                        </button>
+                        <button class="select" style="background-color:rgb(240, 44, 44) ;" value="red">
+                            <img src="images/rocketimgbutton.png" alt="">
+                            <p>  join red</p>
+                        </button>
+                    </div>
+                    <div class="number-btn">
+                        <div class="btn-align">
+                        <button class="select" value="1">1</button>
+                        <button class="select" value="2">2</button>
+                        <button class="select" value="3">3</button>
+                        <button class="select" value="4">4</button>
+                        <button class="select" value="5">5</button>
+                        <button class="select" value="6">6</button>
+                        <button class="select" value="7">7</button>
+                        <button class="select" value="8">8</button>
+                        <button class="select" value="9">9</button>
+                        <button class="select" value="0">0</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="record-section">
+                <div class="title">Record</div>
+                <div class="result">
+                    <div class="result-title">
+                        <div class="title-text">FastParity Record</div>
+                        <!-- <a href="resulttabel.html" class="more-btn">more ></a> -->
+                    </div>
+                    <div class="displayresult"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- pop us section -->
+
+
+<div class="popup_box">
+  <img class="popupimg" alt="">
+  </div>
+  
+
+
+    <script src="style.js"></script>
+    <script src="popuplogics.js"></script>
+</body>
+</html>
